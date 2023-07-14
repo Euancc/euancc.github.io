@@ -24,23 +24,7 @@ h2 {
   padding-top: 100px;
   text-align: center;
 }
-.links {
- 
-  border-radius: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: inline-block;
-  text-align: center;
-  margin-top: 100px;
-  margin-left: 150px;
 
-margin-right: 150px;
-margin-bottom: 150px;
-border: 5px solid rgb(166, 64, 1)
-
- }
  .link-sect {
   padding-top: 3%;
   padding-bottom: 13%;
@@ -50,6 +34,25 @@ border: 5px solid rgb(166, 64, 1)
   font-style: inherit;
   
 }
+.links {
+ 
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 150px;
+  max-width: 30%;
+  min-width: 30%;
+
+margin-right: 150px;
+margin-bottom: 150px;
+border: 5px solid rgb(166, 64, 1)
+
+ }
 .link-img {
   border-radius: 30px;
   padding-left: 20px;
@@ -58,4 +61,12 @@ border: 5px solid rgb(166, 64, 1)
   padding-bottom: 20px;
   height: 200px;
   width: 200px;
+}
+
+.script-txt {
+  display: column;
+  text-align: center;
+
+  padding-left: 10%;
+  padding-right: 10%;
 }
