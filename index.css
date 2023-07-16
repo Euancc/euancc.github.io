@@ -7,6 +7,10 @@ body {
   background-size: cover;
 }
 
+a:hover {
+  
+  transform: scale(1.07);
+}
 h1 {
   display: grid;
   font-style:inherit  ;
@@ -19,15 +23,13 @@ font-size: 3em;
 
 h2 {
   font-style:oblique ;
-
   font-size: 1.5em;
-  padding-bottom: 15%;
   padding-top: 15%;
   text-align: center;
 }
 
  .link-sect {
-display: inline flex;
+  text-align: center;
   padding-top: 3%;
   padding-bottom: 13%;
   font-weight: 500;
@@ -36,7 +38,7 @@ display: inline flex;
   
 }
 .links {
- 
+  display: inline block;
   border-radius: 30px;
   padding-left: 1px;
   padding-right: 1px;
@@ -62,6 +64,11 @@ display: inline flex;
   height: 180px;
   width: 180px;
 }
+ 
+a:hover {
+  transform: scale(1.07);
+}
+
 
 .script-txt {
   display: column;
