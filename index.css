@@ -49,7 +49,7 @@ h2 {
 }
 .links {
   display: inline block;
-  border-radius: 30px;
+  border-radius: 70px;
   padding-left: 1px;
   padding-right: 1px;
   padding-top: 20px;
@@ -85,4 +85,63 @@ a:hover {
   text-align: center;
   padding-left: 7%;
   padding-right: 7%;
+}
+
+.container {
+
+  overflow: auto;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  border-radius: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+  background-color: blanchedalmond;
+}
+.aboutContainer {
+
+  overflow: auto;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  border-radius: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 10%;
+  display: inline-block;
+  background-color:linen;
+}
+
+
+.profile-img {
+flex-direction: column;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  padding-bottom: 20px;
+  height: 230px;
+  width: 180px;
+}
+.cvLink {
+  flex-direction: column;
+ 
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  padding-bottom: 20px;
+  height: 20px;
+  width: 180px;
+}
+.imageCv{
+  flex-direction: column;
+  float: right;
+
 }
