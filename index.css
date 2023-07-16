@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
   background-image: url(/images/background.avif);
   width: 98vw;
@@ -12,30 +14,38 @@ a:hover {
   transform: scale(1.07);
 }
 h1 {
-  display: grid;
-  font-style:inherit  ;
+
+  font-family: 'Playfair Display', serif;
 text-decoration: underline;
 font-size: 3em;
-  padding-bottom: 15%;
-  padding-top: 15%;
+
   text-align: center;
 }
 
 h2 {
   font-style:oblique ;
   font-size: 1.5em;
-  padding-top: 15%;
+ 
   text-align: center;
 }
 
  .link-sect {
+  display: flex;
   text-align: center;
   padding-top: 3%;
   padding-bottom: 13%;
   font-weight: 500;
   font-size: 1.0em;
   font-style: inherit;
+  margin-left: 15%;
+  margin-right: 15%;
   
+}
+@media only screen and (max-width: 800px) {
+  .link-sect {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .links {
   display: inline block;
