@@ -2,11 +2,15 @@
 
 body {
   background-image: url(/images/background.avif);
-  width: 98vw;
-  height: 100%;
- background-position: center;
+  background-attachment: fixed;
+ background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
 }
 
 a:hover {
@@ -47,10 +51,19 @@ h2 {
     align-items: center;
   }
 }
-.nav {
-  text-align: center;
-  font-size: large;
+header {
+  box-sizing:border-box;
+ 
+  background-color: linen;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  justify-content: space-between;
+ 
+  padding: 1px 25%;
+
 }
+
 .links {
   display: inline block;
   border-radius: 70px;
@@ -118,7 +131,7 @@ position: relative;
   padding-top: 1%;
   padding-bottom: 1%;
   margin-top: 10%;
-  
+  margin-bottom: 80%;
   background-color:linen;
 }
 .imgCV{
