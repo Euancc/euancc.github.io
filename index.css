@@ -105,7 +105,7 @@ a:hover {
 .aboutContainer {
 
   overflow: auto;
-  position: relative;
+position: relative;
   width: 50%;
   left: 25%;
   border-radius: 2%;
@@ -114,34 +114,35 @@ a:hover {
   padding-top: 1%;
   padding-bottom: 1%;
   margin-top: 10%;
-  display: inline-block;
+  
   background-color:linen;
 }
-
+.imgCV{
+  float: right;
+flex-direction: column;
+text-align: center;
+}
 
 .profile-img {
-flex-direction: column;
-  border-radius: 30px;
+  
+  border-radius: 21px;
   padding-left: 20px;
   padding-right: 20px;
   
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   height: 230px;
   width: 180px;
 }
-.cvLink {
-  flex-direction: column;
- 
-  border-radius: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-  padding-bottom: 20px;
-  height: 20px;
-  width: 180px;
-}
-.imageCv{
-  flex-direction: column;
-  float: right;
 
-}
+.cvLink {
+  
+  border-radius: 2px;
+    padding-top: 5px;
+   
+    padding-bottom: 20px;
+    margin-right: 0%;
+    
+    height: 20px;
+    width: 180px;
+ }
+  
