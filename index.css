@@ -47,6 +47,10 @@ h2 {
     align-items: center;
   }
 }
+.nav {
+  text-align: center;
+  font-size: large;
+}
 .links {
   display: inline block;
   border-radius: 70px;
@@ -145,4 +149,3 @@ text-align: center;
     height: 20px;
     width: 180px;
  }
-  
