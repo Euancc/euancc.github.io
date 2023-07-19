@@ -53,22 +53,22 @@ h2 {
   }
 }
 header {
-  box-sizing:border-box;
- 
+  box-sizing:border-box; 
   background-color: linen;
   display: flex;
   align-items: center;
   font-size: larger;
   justify-content: space-between;
- 
-padding-left: 25%;
-padding-right: 23%;
+  padding-left: 23%;
+  padding-right: 23%;
   margin-bottom: 50px;
 
 }
 
 .links {
   display: inline block;
+  background-color: linen;
+ 
   border-radius: 70px;
   padding-left: 1px;
   padding-right: 1px;
@@ -95,20 +95,21 @@ padding-right: 23%;
   width: 180px;
 }
  
-a:hover {
+
+.link-img:hover {
   transform: scale(1.07);
 }
 
-
 .script-txt {
   display: column;
-  text-align: center;
+  text-align: justify;
   padding-left: 7%;
   padding-right: 7%;
 }
 
-.container {
 
+.aboutContainer {
+  text-align: justify;
   overflow: auto;
   position: relative;
   width: 50%;
@@ -118,29 +119,14 @@ a:hover {
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-top: 1%;
-  display: inline-block;
-  background-color: blanchedalmond;
-}
-.aboutContainer {
-
-  overflow: auto;
-position: relative;
-  width: 50%;
-  left: 25%;
-  border-radius: 2%;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
   margin-top: 10%;
-  margin-bottom: 80%;
+  margin-bottom: 20%;
   background-color:linen;
 }
 .imgCV{
   float: right;
-flex-direction: column;
-text-align: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .profile-img {
