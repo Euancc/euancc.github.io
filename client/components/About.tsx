@@ -3,22 +3,6 @@ import React from 'react'
 export default function About() {
   return (
     <>
-      <header>
-        <p>Euan Cunningham</p>
-        <div>
-          <table>
-            <thead>
-              <a href="https://euancc.github.io">About | </a>
-            </thead>{' '}
-            <thead>
-              <a href="https://euancc.github.io/projects.html">Projects | </a>
-            </thead>{' '}
-            <thead>
-              <a href="https://euancc.github.io/contact.html">Contact</a>
-            </thead>
-          </table>
-        </div>
-      </header>
       <div className="aboutContainer">
         <h3>From diggers to development</h3>
         <div className="imgCV">
