@@ -1,9 +1,9 @@
-{
-  "extends": "../tsconfig.json",
-  "include": [".", "../models"],
-  "compilerOptions": {
-    "outDir": "../dist/server",
-    "noEmit": false,
-    "module": "CommonJS"
-  }
-}
+// {
+//   "extends": "../tsconfig.json",
+//   "include": [".", "../models"],
+//   "compilerOptions": {
+//     "outDir": "../dist/server",
+//     "noEmit": false,
+//     "module": "CommonJS"
+//   }
+// }
